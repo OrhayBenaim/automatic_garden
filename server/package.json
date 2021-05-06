@@ -4,10 +4,6 @@
   "main": "src/index.js",
   "private": false,
   "license": "MIT",
-  "engines": {
-    "node": ">=8",
-    "yarn": "*"
-  },
   "scripts": {
     "precommit": "yarn lint",
     "prestart": "yarn docs",
