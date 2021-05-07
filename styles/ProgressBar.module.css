@@ -1,0 +1,26 @@
+
+.ProgressBar{
+   position: relative;
+   display: flex;
+   min-height: 20px;
+   justify-content: flex-start;
+   align-items: center;
+   border-radius: var(--rounded-md);
+   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+   width: 100%;
+}
+
+.bar{
+   z-index: -1;
+   background-color: var(--green);
+   border-radius: var(--rounded-md);
+   position: absolute;
+   height: 100%;
+
+}
+
+.precentage{
+   transform: translateX(50%);
+   font-size: var(--text-md);
+   color: white;
+}

@@ -1,0 +1,24 @@
+.Home{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Home > *{
+    flex: 1 1 calc(25% - 20px);
+    min-width: 300px;
+}
+
+.item{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .Home{
+        padding: 10px;
+    }
+
+}

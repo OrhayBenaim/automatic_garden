@@ -1,0 +1,20 @@
+.Widget{
+    border-radius: var(--rounded-md);
+    padding: 10px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: var(--xl);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.content{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+} 
