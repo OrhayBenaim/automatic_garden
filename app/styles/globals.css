@@ -1,14 +1,15 @@
-:root{
+:root {
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --green: #2e8540 ;
-  --rounded-md: 25px;
-  --text-md: 20px;
-  --xl: 1.25rem;
+  --green: #2e8540;
+  --rounded-md: 1.5rem;
+  --rounded-sm: .75rem;
+  --text-md: 1.25rem;
+  --text-sm: .75rem;
+  --text-xl: 2rem;
+ 
 }
 
-
-
-.divide > :not([hidden]) ~ :not([hidden]){
+.divide > :not([hidden]) ~ :not([hidden]) {
   border-top: 2px solid rgba(200, 200, 200, 1);
 }
 
@@ -18,10 +19,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  
-    direction: rtl;
-}
 
+  direction: rtl;
+}
 
 a {
   color: inherit;
@@ -30,4 +30,40 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: var(--text-md);
+  padding: 10px 50px;
+  max-width: 320px;
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--rounded-sm);
+}
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.title{
+  font-weight: 700;
+  font-size: var(--text-xl);
+  text-align: center;
+  padding: 10px 0;
 }

@@ -1,17 +1,16 @@
 .Home{
     padding: 20px;
+  
+}
+
+.Plants{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-.Home > *{
+.Plants > *{
     flex: 1 1 calc(25% - 20px);
     min-width: 300px;
-}
-
-.item{
-    display: flex;
-    align-items: flex-end;
 }
 
 

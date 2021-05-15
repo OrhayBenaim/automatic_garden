@@ -1,0 +1,22 @@
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+
+.input{
+    padding: 5px 10px;
+    font-size: var(--text-sm);
+    border-radius: var(--rounded-sm);
+    outline: none;
+    box-shadow: var(--tw-shadow);
+    border-width: 1px;
+  }
+
+  
+
+.label{
+    margin-inline-start: calc(var(--rounded-sm) / 2);
+}

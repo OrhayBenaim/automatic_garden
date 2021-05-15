@@ -21,6 +21,6 @@
 
 .precentage{
    transform: translateX(50%);
-   font-size: var(--text-md);
+   font-size: var(--text-sm);
    color: white;
 }
