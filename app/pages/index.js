@@ -37,7 +37,7 @@ export default function Home() {
   const AddPlant = () =>{
     console.log(plant);
     if(plant === '' ) return;
-    setPlants([...plants, {title: plant,light: 20,health: 20, humidty: 10, }])
+    setPlants([...plants, {title: plant,light: 20,health: 20, humidty: 150, }])
   }
 
   const inputChange = (value) =>{

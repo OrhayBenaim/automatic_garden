@@ -6,3 +6,5 @@ export const newId = (prefix='id') => {
     map.set(prefix, ++lastId);
     return `${prefix}${lastId}`;
 }
+
+export const clamp = (number, min, max) => Math.min(Math.max(number, min), max);

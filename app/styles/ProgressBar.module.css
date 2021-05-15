@@ -16,6 +16,7 @@
    border-radius: var(--rounded-md);
    position: absolute;
    height: 100%;
+   max-width: 100%;
 
 }
 
